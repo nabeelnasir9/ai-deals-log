@@ -1,0 +1,35 @@
+/* styles/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer utilities {
+  .animate-fade-in {
+    @apply animate-fade-in;
+  }
+  .animate-slide-up {
+    @apply animate-slide-up;
+  }
+}= */
+
+body{
+  font-family: "Urbanist", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: lightslategray;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: lightslategray;
+}
+
+html{
+  height: 100%;
+}
